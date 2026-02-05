@@ -87,3 +87,62 @@ Training stops early once all samples are classified correctly (converges at **e
 
 ## Repository Structure
 
+documentation/
+├─ Architecture poster/
+├─ images/
+├─ presentation/
+
+src/
+├─ core/ # forward network, FSM, argmax
+├─ math/ # fixed-point + activation units
+├─ memory/ # ROM and weight registers
+├─ update/ # hidden + output weight updates
+├─ top/ # testbench
+
+
+---
+
+## How to Run (EDA Playground)
+
+1. Go to **https://edaplayground.com**
+2. Language: **VHDL**
+3. Simulator: **Aldec Riviera-PRO**
+4. Enable **“Open EPWave after run”**
+5. Upload all VHDL files from `src/`
+6. Set top entity to `testbench`
+7. Run simulation and inspect waveforms
+
+Waveforms demonstrate:
+- Correct forward inference
+- Error detection
+- Weight updates
+- Training convergence
+- Validation correctness
+
+---
+
+## Demo & Documentation
+
+- 📄 Architecture poster and design explanation: `documentation/`
+- 📊 Simulation waveforms: `documentation/images/`
+- 🎥 Demo video: see YouTube link in the repository
+
+---
+
+## Skills Demonstrated
+
+- VHDL / RTL design
+- FPGA-oriented fixed-point arithmetic
+- Digital datapath & control FSM design
+- Hardware-based machine learning
+- Verification using testbenches and waveforms
+- System-level hardware architecture
+
+---
+
+## Authors
+
+**Ahmed Elag**  
+**Marc Niven**
+
+---
