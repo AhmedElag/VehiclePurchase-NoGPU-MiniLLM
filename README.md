@@ -140,9 +140,8 @@ Waveforms demonstrate:
 
 ---
 
-## Authors
+### Authors
+Ahmed Elag  
+Marc Niven  
 
-**Ahmed Elag**  
-**Marc Niven**
-This project was originally completed as part of a university course and is shared for educational and portfolio purposes.
----
+*This project was originally completed as part of a university course and is shared for educational and portfolio purposes.*
