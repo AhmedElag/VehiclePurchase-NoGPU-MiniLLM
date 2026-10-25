@@ -67,7 +67,7 @@ All arithmetic is synthesizable and FPGA-friendly.
 ---
 
 ## Dataset & Task
-
+# *Check Documents/Milestone 1: Dataset was swapped out from Vehicle Purchasing data set to the one below for simplicity.
 The model predicts one of four replies:
 
 | Encoding | Reply |
